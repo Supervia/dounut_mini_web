@@ -9,6 +9,6 @@
 <body>
 	<h6>Welcome!springframework!</h6>
 	<hr />
-	<h6>나 너무 힘들어 지쳐 집에 가고 싶어 제발</h6>
+	<h6>레이아웃 너무 힘들어요 대신 만들어주세여 ^^7</h6>
 </body>
 </html>
