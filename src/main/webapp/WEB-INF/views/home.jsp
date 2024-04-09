@@ -1,14 +1,32 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<!doctype html>
+<html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="resources/fonts/icomoon/style.css">
+<link rel="stylesheet" href="resources/css/owl.carousel.min.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+<!-- Style -->
+<link rel="stylesheet" href="resources/css/style.css">
+<script src="resources/js/jquery-3.3.1.min.js"></script>
+<script src="resources/js/popper.min.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+<script src="resources/js/jquery.sticky.js"></script>
+<script src="resources/js/main.js"></script>
+
+<title>DouNut Index</title>
+
 </head>
+
 <body>
-	<h6>Welcome!springframework!</h6>
-	<hr />
-	<h6>레이아웃 너무 힘들어요 대신 만들어주세여 ^^7</h6>
+<%@ include file="/WEB-INF/views/common/header.jsp"%>
 </body>
+<%@ include file="/WEB-INF/views/common/footer.jsp"%>
 </html>
