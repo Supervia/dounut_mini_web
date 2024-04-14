@@ -40,10 +40,10 @@
 					<div class="float-right">
 
 
-						<a href="#" class="text-light"><span class="mr-2 icon-sign-in"></span>
+						<a href="./signin" class="text-light"><span class="mr-2 icon-sign-in"></span>
 						<span class="d-none d-md-inline-block">회원가입</span></a>
 						<span class="mx-md-2 d-inline-block"></span>
-						<a href="#" class="text-light"><span class="mr-2 icon-user"></span>
+						<a href="./login" class="text-light"><span class="mr-2 icon-user"></span>
 						<span class="d-none d-md-inline-block">로그인</span></a>
 						<span class="mx-md-2 d-inline-block"></span>
 						<a href="#" class="text-light"><span class="mr-2 icon-shopping-cart"></span>
