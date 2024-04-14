@@ -39,11 +39,19 @@
 				<div class="col-12">
 					<div class="float-right">
 
-						<a href="./signin" class="text-light"><span class="mr-2  icon-twitter"></span> <span class="d-none d-md-inline-block">회원가입</span></a> <span
-							class="mx-md-2 d-inline-block"></span> <a href="#" class="text-light"><span class="mr-2  icon-facebook"></span> <span
-							class="d-none d-md-inline-block">로그인</span></a> <span class="mx-md-2 d-inline-block"></span> <a href="#" class="text-light"><span
-							class="mr-2  icon-facebook"></span> <span class="d-none d-md-inline-block">주문조회</span></a> <span class="mx-md-2 d-inline-block"></span> <a href="#"
-							class="text-light"><span class="mr-2  icon-facebook"></span> <span class="d-none d-md-inline-block">고객센터</span></a>
+
+						<a href="#" class="text-light"><span class="mr-2 icon-sign-in"></span>
+						<span class="d-none d-md-inline-block">회원가입</span></a>
+						<span class="mx-md-2 d-inline-block"></span>
+						<a href="#" class="text-light"><span class="mr-2 icon-user"></span>
+						<span class="d-none d-md-inline-block">로그인</span></a>
+						<span class="mx-md-2 d-inline-block"></span>
+						<a href="#" class="text-light"><span class="mr-2 icon-shopping-cart"></span>
+						<span class="d-none d-md-inline-block">주문조회</span></a>
+						<span class="mx-md-2 d-inline-block"></span>
+						<a href="#"	class="text-light">
+						<span class="mr-2 icon-domain"></span>
+						<span class="d-none d-md-inline-block">고객센터</span></a>
 
 					</div>
 
