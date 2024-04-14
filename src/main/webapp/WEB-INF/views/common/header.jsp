@@ -39,7 +39,7 @@
 				<div class="col-12">
 					<div class="float-right">
 
-						<a href="#" class="text-light"><span class="mr-2  icon-twitter"></span> <span class="d-none d-md-inline-block">회원가입</span></a> <span
+						<a href="./signin" class="text-light"><span class="mr-2  icon-twitter"></span> <span class="d-none d-md-inline-block">회원가입</span></a> <span
 							class="mx-md-2 d-inline-block"></span> <a href="#" class="text-light"><span class="mr-2  icon-facebook"></span> <span
 							class="d-none d-md-inline-block">로그인</span></a> <span class="mx-md-2 d-inline-block"></span> <a href="#" class="text-light"><span
 							class="mr-2  icon-facebook"></span> <span class="d-none d-md-inline-block">주문조회</span></a> <span class="mx-md-2 d-inline-block"></span> <a href="#"
