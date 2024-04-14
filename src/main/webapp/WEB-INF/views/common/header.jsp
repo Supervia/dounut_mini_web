@@ -1,6 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <head>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="resources/fonts/icomoon/style.css">
+<link rel="stylesheet" href="resources/css/owl.carousel.min.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+<!-- Style -->
+<link rel="stylesheet" href="resources/css/style.css">
 <style>
 .headerSize {
 	background-color: #50D6FF;
@@ -12,9 +20,6 @@
 </style>
 </head>
 <body>
-	<div class="d-flex justify-content-center headerSize">
-		<img class="header-img" src="resources/images/nobgDounutted.png" style="height: 200px;" alt="도넛 사진">
-	</div>
 	<div class="site-mobile-menu site-navbar-target">
 		<div class="site-mobile-menu-header">
 			<div class="site-mobile-menu-close mt-3">
@@ -22,6 +27,9 @@
 			</div>
 		</div>
 		<div class="site-mobile-menu-body"></div>
+	</div>
+	<div class="d-flex justify-content-center headerSize">
+		<img class="header-img" src="resources/images/nobgDounutted.png" style="height: 200px;" alt="도넛 사진">
 	</div>
 
 
@@ -81,9 +89,16 @@
 					</nav>
 				</div>
 				<div class="toggle-button d-inline-block d-lg-none">
-					<a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a>
+					<a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black">
+					<span class="icon-menu h3 text-primary"></span></a>
 				</div>
 			</div>
 		</div>
 	</header>
+	<script src="resources/js/jquery-3.3.1.min.js"></script>
+	<script src="resources/js/bootstrap.min.js"></script>
+	<script src="resources/js/popper.min.js"></script>
+	<script src="resources/js/jquery.sticky.js"></script>
+	<script src="resources/js/main.js"></script>
+
 </body>
