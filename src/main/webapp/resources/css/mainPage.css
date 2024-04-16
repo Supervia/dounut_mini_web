@@ -1,0 +1,135 @@
+ body {
+    margin: 0;
+  }
+
+  .outer {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .inner-list {
+    display: flex;
+    transition: .3s ease-out;
+    height: 100%;
+  }
+
+  .banner_container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .bottom_banner_container{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    margin: 100px 50px;
+  }
+  
+
+  .button {
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  .button-left {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+  }
+
+  .button-right {
+    position: absolute;
+    top: 8%;
+    right: 2%;
+  }
+
+  .inner img {
+    position: absolute;
+    width: 100%;
+  }
+
+  .text1 {
+    margin-top: 40px;
+    text-align: center;
+    color: #683b28;
+    font-weight: bold;
+  }
+
+  .galley_containner {
+    display: flex;
+    justify-content: center;
+    /* Center align child elements horizontally */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
+    align-items: center;
+    /* Center align content vertically */
+    height: 80%;
+  }
+
+  div.gallery {
+    margin: 30px;
+    border: 1px solid #ccc;
+    width: 300px;
+    box-sizing: border-box;
+  }
+
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+
+  div.gallery .content {
+    width: 100%;
+    height: auto;
+  }
+
+  div.desc {
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  div.desc2{
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .heart-img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 4px 0 4px 0;
+    border-bottom: 1px solid gray;
+  }
+  .background_container{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background-color: #ebe0d2;;
+  }
+  .text2_container{
+    text-align: center;
+    line-height: 45px;
+    position: relative;
+    margin: 0 auto;
+    width: 45%;
+  }
+  .text2_container h1{
+    color: #683b28;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 45px;
+  }
+  .text2_container span{
+    line-height: 45px;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .text3{
+    margin-top: 50px;
+  }
+  
