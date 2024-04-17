@@ -1,0 +1,38 @@
+@charset "UTF-8";
+	
+			.login {
+				width: 500px;
+				height: 100%; 
+				margin: 0 auto;
+				padding: 15px;
+			}
+			
+			.loginBtn {
+				text-align: center;
+			}
+			
+			#loginBtnSubmit {
+				background: #50D6FF;
+				display: inline-block;	
+				border: round;	
+				width: 100%;	
+			}
+			
+			a {
+				text-decoration: none;
+			}
+		
+			a:hover {
+				text-decoration: underline;
+				background-color: #50D6FF;
+				color: black;
+			}
+				
+			a:active {
+				color: black;
+			}
+			
+			a:visited {
+				color: black;
+			}
+		
