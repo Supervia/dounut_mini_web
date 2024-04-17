@@ -1,187 +1,199 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./resources/css/mainPage.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <!-- jQuery library -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-  <!-- Popper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <!-- Latest compiled JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="./resources/css/mainPage.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script
+	src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<!-- Popper JS -->
+<script
+	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
-  <div class="banner_container">
-    <div class="outer">
-      <div class="inner-list">
-        <div class="inner">
-          <img src="./resources/images/mainPageData/배너1.png" alt="">
+	<div class="banner_container">
+		<div class="outer">
+			<div class="inner-list">
+				<div class="inner">
+					<img src="./resources/images/mainPageData/배너1.png" alt="">
 
-        </div>
-        <div class="inner">
-          <img src="./resources/images/mainPageData/배너2.png" alt="">
+				</div>
+				<div class="inner">
+					<img src="./resources/images/mainPageData/배너2.png" alt="">
 
-        </div>
-        <div class="inner">
-          <img src="./resources/images/mainPageData/배너3.png" alt="">
+				</div>
+				<div class="inner">
+					<img src="./resources/images/mainPageData/배너3.png" alt="">
 
-        </div>
-      </div>
-    </div>
+				</div>
+			</div>
+		</div>
 
-    <div class="button-list">
-      <button type="button" class="button-left button">
-        <img src="./resources/images/mainPageData/left.png" alt="">
-      </button>
-      <button type="button" class="button-right button">
-        <img src="./resources/images/mainPageData/right.png" alt="">
-      </button>
-    </div>
-    <h1 class="text1">도우넛 특산품</h1>
-    <div class="galley_containner">  
-      <div class="gallery">
-        <a target="_blank" href="img_5terre.jpg">
-          <img class="content" src="./resources/images/mainPageData/do1.png" alt="Cinque Terre" width="600" height="400">
-        </a>
-        <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-        <div class="desc">보문산 메아리</div>
-        <div class="desc2">6,000원</div>
-      </div>
+		<div class="button-list">
+			<button type="button" class="button-left button">
+				<img src="./resources/images/mainPageData/left.png" alt="">
+			</button>
+			<button type="button" class="button-right button">
+				<img src="./resources/images/mainPageData/right.png" alt="">
+			</button>
+		</div>
+		<h1 class="text1">도우넛 특산품</h1>
+		<div class="galley_containner">
+			<div class="gallery">
+				<a target="_blank" href="img_5terre.jpg"> <img class="content"
+					src="./resources/images/mainPageData/do1.png" alt="Cinque Terre"
+					width="600" height="400">
+				</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+					class="heart-img" onclick="">
+				<div class="desc">보문산 메아리</div>
+				<div class="desc2">6,000원</div>
+			</div>
 
-      <div class="gallery">
-        <a target="_blank" href="img_forest.jpg">
-          <img class="content" src="./resources/images/mainPageData/do2.png" alt="Forest" width="600" height="400">
-        </a>
-        <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-        <div class="desc">순수롤</div>
-        <div class="desc2">14,000원</div>
-      </div>
+			<div class="gallery">
+				<a target="_blank" href="img_forest.jpg"> <img class="content"
+					src="./resources/images/mainPageData/do2.png" alt="Forest"
+					width="600" height="400">
+				</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+					class="heart-img" onclick="">
+				<div class="desc">순수롤</div>
+				<div class="desc2">14,000원</div>
+			</div>
 
-      <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-          <img class="content" src="./resources/images/mainPageData/do3.png" alt="Northern Lights" width="600" height="400">
-        </a>
-        <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-        <div class="desc">순수 마들렌2호</div>
-        <div class="desc2">12,000원</div>
-      </div>
+			<div class="gallery">
+				<a target="_blank" href="img_lights.jpg"> <img class="content"
+					src="./resources/images/mainPageData/do3.png" alt="Northern Lights"
+					width="600" height="400">
+				</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+					class="heart-img" onclick="">
+				<div class="desc">순수 마들렌2호</div>
+				<div class="desc2">12,000원</div>
+			</div>
 
-      <div class="gallery">
-        <a target="_blank" href="img_mountains.jpg">
-          <img class="content" src="./resources/images/mainPageData/do4.png" alt="Mountains" width="600" height="400">
-        </a>
-        <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-        <div class="desc">튀소 세트</div>
-        <div class="desc2">10,000원</div>
-      </div>
-    </div>
-    <div class="background_container">
-      <div class="text2_container">
-        <h1 class="text2">도우넛 베스트</h1>
-        <span>
-          <a style="color: #683b28;" href="">더보기+</a>
-        </span>
-      </div>
-      <div class="galley_containner">  
-        <div class="gallery">
-          <a target="_blank" href="img_5terre.jpg">
-            <img class="content" src="./resources/images/mainPageData/do1.png" alt="Cinque Terre" width="600" height="400">
-          </a>
-          <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-          <div class="desc">보문산 메아리</div>
-          <div class="desc2">10,000원</div>
-        </div>
+			<div class="gallery">
+				<a target="_blank" href="img_mountains.jpg"> <img
+					class="content" src="./resources/images/mainPageData/do4.png"
+					alt="Mountains" width="600" height="400">
+				</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+					class="heart-img" onclick="">
+				<div class="desc">튀소 세트</div>
+				<div class="desc2">10,000원</div>
+			</div>
+		</div>
+		<div class="background_container">
+			<div class="text2_container">
+				<h1 class="text2">도우넛 베스트</h1>
+				<span> <a style="color: #683b28;" href="">더보기+</a>
+				</span>
+			</div>
+			<div class="galley_containner">
+				<div class="gallery">
+					<a target="_blank" href="img_5terre.jpg"> <img class="content"
+						src="./resources/images/mainPageData/do1.png" alt="Cinque Terre"
+						width="600" height="400">
+					</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+						class="heart-img" onclick="">
+					<div class="desc">보문산 메아리</div>
+					<div class="desc2">10,000원</div>
+				</div>
 
-        <div class="gallery">
-          <a target="_blank" href="img_forest.jpg">
-            <img class="content" src="./resources/images/mainPageData/do2.png" alt="Forest" width="600" height="400">
-          </a>
-          <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-          <div class="desc">순수롤</div>
-          <div class="desc2">10,000원</div>
-        </div>
+				<div class="gallery">
+					<a target="_blank" href="img_forest.jpg"> <img class="content"
+						src="./resources/images/mainPageData/do2.png" alt="Forest"
+						width="600" height="400">
+					</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+						class="heart-img" onclick="">
+					<div class="desc">순수롤</div>
+					<div class="desc2">10,000원</div>
+				</div>
 
-        <div class="gallery">
-          <a target="_blank" href="img_lights.jpg">
-            <img class="content" src="./resources/images/mainPageData/do3.png" alt="Northern Lights" width="600" height="400">
-          </a>
-          <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-          <div class="desc">튀소 세트</div>
-          <div class="desc2">10,000원</div>
-        </div>
+				<div class="gallery">
+					<a target="_blank" href="img_lights.jpg"> <img class="content"
+						src="./resources/images/mainPageData/do3.png"
+						alt="Northern Lights" width="600" height="400">
+					</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+						class="heart-img" onclick="">
+					<div class="desc">튀소 세트</div>
+					<div class="desc2">10,000원</div>
+				</div>
 
-        <div class="gallery">
-          <a target="_blank" href="img_mountains.jpg">
-            <img class="content" src="./resources/images/mainPageData/do4.png" alt="Mountains" width="600" height="400">
-          </a>
-          <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-          <div class="desc">순수 마들렌2호</div>
-          <div class="desc2">10,000원</div>
-        </div>
-      </div>
-    </div>
-    <div class="text2_container text3">
-      <h1 class="text2">도우넛 신상품</h1>
-      <span>
-        <a style="color: #683b28;" href="">더보기+</a>
-      </span>
-    </div>
-    <div class="galley_containner">  
-      <div class="gallery">
-        <a target="_blank" href="img_5terre.jpg">
-          <img class="content" src="./resources/images/mainPageData/신상1.png" alt="Cinque Terre" width="600" height="400">
-        </a>
-        <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-        <div class="desc">보문산 메아리</div>
-        <div class="desc2">10,000원</div>
-      </div>
+				<div class="gallery">
+					<a target="_blank" href="img_mountains.jpg"> <img
+						class="content" src="./resources/images/mainPageData/do4.png"
+						alt="Mountains" width="600" height="400">
+					</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+						class="heart-img" onclick="">
+					<div class="desc">순수 마들렌2호</div>
+					<div class="desc2">10,000원</div>
+				</div>
+			</div>
+		</div>
+		<div class="text2_container text3">
+			<h1 class="text2">도우넛 신상품</h1>
+			<span> <a style="color: #683b28;" href="">더보기+</a>
+			</span>
+		</div>
+		<div class="galley_containner">
+			<div class="gallery">
+				<a target="_blank" href="img_5terre.jpg"> <img class="content"
+					src="./resources/images/mainPageData/신상1.png" alt="Cinque Terre"
+					width="600" height="400">
+				</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+					class="heart-img" onclick="">
+				<div class="desc">보문산 메아리</div>
+				<div class="desc2">10,000원</div>
+			</div>
 
-      <div class="gallery">
-        <a target="_blank" href="img_forest.jpg">
-          <img class="content" src="./resources/images/mainPageData/신상2.png" alt="Forest" width="600" height="400">
-        </a>
-        <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-        <div class="desc">순수롤</div>
-        <div class="desc2">10,000원</div>
-      </div>
+			<div class="gallery">
+				<a target="_blank" href="img_forest.jpg"> <img class="content"
+					src="./resources/images/mainPageData/신상2.png" alt="Forest"
+					width="600" height="400">
+				</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+					class="heart-img" onclick="">
+				<div class="desc">순수롤</div>
+				<div class="desc2">10,000원</div>
+			</div>
 
-      <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-          <img class="content" src="./resources/images/mainPageData/신상3.png" alt="Northern Lights" width="600" height="400">
-        </a>
-        <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-        <div class="desc">튀소 세트</div>
-        <div class="desc2">10,000원</div>
-      </div>
+			<div class="gallery">
+				<a target="_blank" href="img_lights.jpg"> <img class="content"
+					src="./resources/images/mainPageData/신상3.png" alt="Northern Lights"
+					width="600" height="400">
+				</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+					class="heart-img" onclick="">
+				<div class="desc">튀소 세트</div>
+				<div class="desc2">10,000원</div>
+			</div>
 
-      <div class="gallery">
-        <a target="_blank" href="img_mountains.jpg">
-          <img class="content" src="./resources/images/mainPageData/신상4.png" alt="Mountains" width="600" height="400">
-        </a>
-        <img src="./resources/images/mainPageData/before.png" alt="하트 이미지" class="heart-img" onclick="">
-        <div class="desc">순수 마들렌2호</div>
-        <div class="desc2">10,000원</div>
-      </div>
+			<div class="gallery">
+				<a target="_blank" href="img_mountains.jpg"> <img
+					class="content" src="./resources/images/mainPageData/신상4.png"
+					alt="Mountains" width="600" height="400">
+				</a> <img src="./resources/images/mainPageData/before.png" alt="하트 이미지"
+					class="heart-img" onclick="">
+				<div class="desc">순수 마들렌2호</div>
+				<div class="desc2">10,000원</div>
+			</div>
 
-      <div class="bottom_banner_container">
-        <div class="outer">
-          <div class="inner-list">
-            <div class="inner">
-              <img src="./resources/images/mainPageData/bottom_banner.png" alt="">
-            </div>
-          </div>
-        </div>
-
-  
-
+			<div class="bottom_banner_container">
+				<div class="outer">
+					<div class="inner-list">
+						<div class="inner">
+							<img src="./resources/images/mainPageData/bottom_banner.png"
+								alt="">
+						</div>
+					</div>
+				</div>
 </body>
 <script>
   /*
